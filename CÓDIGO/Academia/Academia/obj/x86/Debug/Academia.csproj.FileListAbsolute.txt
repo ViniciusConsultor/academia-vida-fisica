@@ -1,0 +1,16 @@
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\Academia.exe
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\Academia.pdb
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.dll
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.Video.DirectShow.dll
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.Video.dll
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.xml
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.Video.xml
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\AForge.Video.DirectShow.xml
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.Properties.Resources.resources
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.exe
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.pdb
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\Academia.exe.config
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.exemplos.Form1.resources
