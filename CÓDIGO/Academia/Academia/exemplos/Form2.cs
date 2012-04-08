@@ -7,19 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-using AForge.Video;
 using AForge.Video.DirectShow;
+using AForge.Video;
 using System.Drawing.Imaging;
 
 namespace Academia.exemplos
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
         private bool existem_dispositivos = false;
         private FilterInfoCollection dispositivos_video;
         private VideoCaptureDevice fonte_video = null;
 
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
             BuscarDispositivos();
@@ -29,10 +29,10 @@ namespace Academia.exemplos
         {
             for (int i = 0; i < dispositivos.Count; i++)
             {
-                comboBox_camera.Items.Add(dispositivos[i].Name.ToString());
+                comboBox_dispositivo.Items.Add(dispositivos[i].Name.ToString());
             }
 
-            comboBox_camera.Text = comboBox_camera.Items[0].ToString();
+            comboBox_dispositivo.Text = comboBox_dispositivo.Items[0].ToString();
         }
 
         public void BuscarDispositivos()
@@ -46,7 +46,6 @@ namespace Academia.exemplos
             else
             {
                 existem_dispositivos = true;
-                CarregaDispositivos(dispositivos_video);
             }
         }
 
@@ -65,8 +64,8 @@ namespace Academia.exemplos
         private void VideoNovoFrame(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap imagem = (Bitmap)eventArgs.Frame.Clone();
-            imagem.SetResolution(400, 300);
-            pictureBox_imagem.Image = imagem;
+            imagem.SetResolution(250,400);
+            pictureBox_foto.Image = imagem;
         }
 
         private void button_iniciar_Click(object sender, EventArgs e)
@@ -75,18 +74,18 @@ namespace Academia.exemplos
             {
                 if (existem_dispositivos)
                 {
-                    fonte_video = new VideoCaptureDevice(dispositivos_video[comboBox_camera.SelectedIndex].MonikerString);
+                    fonte_video = new VideoCaptureDevice(dispositivos_video[comboBox_dispositivo.SelectedIndex].MonikerString);
                     fonte_video.NewFrame += new NewFrameEventHandler(VideoNovoFrame);
                     fonte_video.Start();
-                    statusStrip_barra.Text = "Executando dispositivo";
+                    //statusStrip_barra.Text = "Executando dispositivo";
                     button_iniciar.Text = "Parar";
-                    comboBox_camera.Enabled = false;
-                    label_nome.Text = dispositivos_video[comboBox_camera.SelectedIndex].ToString();
+                    comboBox_dispositivo.Enabled = false;
+                    //label_nome.Text = dispositivos_video[comboBox_camera.SelectedIndex].ToString();
 
                 }
                 else
                 {
-                    statusStrip_barra.Text = "Error: Não encontrado dispositivo";
+                    //statusStrip_barra.Text = "Error: Não encontrado dispositivo";
                 }
 
             }
@@ -95,9 +94,9 @@ namespace Academia.exemplos
                 if (fonte_video != null)// || fonte_video.IsRunning)
                 {
                     TerminarFonteVideo();
-                    statusStrip_barra.Text = "Dispositivo Terminado";
-                    button_iniciar.Text = "Iniciar";
-                    comboBox_camera.Enabled = true;
+                    //statusStrip_barra.Text = "Dispositivo Terminado";
+                    //button_iniciar.Text = "Iniciar";
+                    comboBox_dispositivo.Enabled = true;
                 }
             }
         }
@@ -112,7 +111,7 @@ namespace Academia.exemplos
 
         void button_salvar_Click(object sender, EventArgs e)
         {
-            this.pictureBox_imagem.Image.Save("D:/imagem.jpeg");
+            this.pictureBox_foto.Image.Save("D:/imagem.jpeg");
 
             //using (Bitmap b = new Bitmap(this.pictureBox_imagem.Width, this.pictureBox_imagem.Height))
             //{
@@ -120,11 +119,5 @@ namespace Academia.exemplos
             //    b.Save("D:/imagem.bmp");
             //}
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
