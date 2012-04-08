@@ -44,20 +44,20 @@
             this.panel1.Controls.Add(this.pictureBox_imagem);
             this.panel1.Location = new System.Drawing.Point(12, 36);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(550, 247);
+            this.panel1.Size = new System.Drawing.Size(814, 659);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox_imagem
             // 
             this.pictureBox_imagem.Location = new System.Drawing.Point(12, 13);
             this.pictureBox_imagem.Name = "pictureBox_imagem";
-            this.pictureBox_imagem.Size = new System.Drawing.Size(518, 219);
+            this.pictureBox_imagem.Size = new System.Drawing.Size(480, 640);
             this.pictureBox_imagem.TabIndex = 0;
             this.pictureBox_imagem.TabStop = false;
             // 
             // button_iniciar
             // 
-            this.button_iniciar.Location = new System.Drawing.Point(161, 302);
+            this.button_iniciar.Location = new System.Drawing.Point(612, 526);
             this.button_iniciar.Name = "button_iniciar";
             this.button_iniciar.Size = new System.Drawing.Size(75, 23);
             this.button_iniciar.TabIndex = 1;
@@ -68,7 +68,7 @@
             // comboBox_camera
             // 
             this.comboBox_camera.FormattingEnabled = true;
-            this.comboBox_camera.Location = new System.Drawing.Point(24, 304);
+            this.comboBox_camera.Location = new System.Drawing.Point(577, 565);
             this.comboBox_camera.Name = "comboBox_camera";
             this.comboBox_camera.Size = new System.Drawing.Size(120, 21);
             this.comboBox_camera.TabIndex = 2;
@@ -84,15 +84,15 @@
             // 
             // statusStrip_barra
             // 
-            this.statusStrip_barra.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip_barra.Location = new System.Drawing.Point(0, 728);
             this.statusStrip_barra.Name = "statusStrip_barra";
-            this.statusStrip_barra.Size = new System.Drawing.Size(574, 22);
+            this.statusStrip_barra.Size = new System.Drawing.Size(838, 22);
             this.statusStrip_barra.TabIndex = 4;
             this.statusStrip_barra.Text = "Progresso";
             // 
             // button_salvar
             // 
-            this.button_salvar.Location = new System.Drawing.Point(251, 302);
+            this.button_salvar.Location = new System.Drawing.Point(714, 526);
             this.button_salvar.Name = "button_salvar";
             this.button_salvar.Size = new System.Drawing.Size(75, 23);
             this.button_salvar.TabIndex = 5;
@@ -104,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 450);
+            this.ClientSize = new System.Drawing.Size(838, 750);
             this.Controls.Add(this.button_salvar);
             this.Controls.Add(this.statusStrip_barra);
             this.Controls.Add(this.label_nome);

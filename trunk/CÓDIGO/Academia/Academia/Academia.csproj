@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dados\Aluno.cs" />
     <Compile Include="exemplos\Cliente.cs" />
     <Compile Include="exemplos\Form1.cs">
       <SubType>Form</SubType>
@@ -66,10 +67,31 @@
     <Compile Include="exemplos\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="exemplos\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exemplos\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="visao\AcademiaMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visao\AcademiaMatricula.Designer.cs">
+      <DependentUpon>AcademiaMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visao\AcademiaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visao\AcademiaPrincipal.Designer.cs">
+      <DependentUpon>AcademiaPrincipal.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="exemplos\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exemplos\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,7 +102,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="app.config" />
+    <EmbeddedResource Include="visao\AcademiaMatricula.resx">
+      <DependentUpon>AcademiaMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visao\AcademiaPrincipal.resx">
+      <DependentUpon>AcademiaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,13 +122,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="dados\" />
     <Folder Include="negocio\" />
     <Folder Include="relatorio\" />
-    <Folder Include="visao\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="visao\imagens\1408_32x32.png" />
+    <Content Include="visao\imagens\1408_64x64.png" />
+    <Content Include="visao\imagens\7165_128x128.png" />
+    <Content Include="visao\imagens\7165_64x64.png" />
+    <Content Include="visao\imagens\cancel2 %281%29.ico" />
+    <Content Include="visao\imagens\cancel2.ico" />
+    <Content Include="visao\imagens\lixeira.ico" />
+    <Content Include="visao\imagens\logo.png" />
+    <Content Include="visao\imagens\people.ico" />
+    <Content Include="visao\imagens\people.png" />
+    <Content Include="visao\imagens\plus.ico" />
+    <Content Include="visao\imagens\report_check %281%29.ico" />
+    <Content Include="visao\imagens\report_check.ico" />
+    <Content Include="visao\imagens\save %281%29.ico" />
+    <Content Include="visao\imagens\save.ico" />
+    <Content Include="visao\imagens\trash_red.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
