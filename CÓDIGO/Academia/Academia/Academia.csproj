@@ -11,7 +11,8 @@
     <RootNamespace>Academia</RootNamespace>
     <AssemblyName>Academia</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -46,9 +47,13 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,7 +64,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< .mine
+    <Compile Include="dados\Pagamento.cs" />
+=======
     <Compile Include="dados\Aluno.cs" />
+>>>>>>> .r8
     <Compile Include="exemplos\Cliente.cs" />
     <Compile Include="exemplos\Form1.cs">
       <SubType>Form</SubType>
@@ -67,14 +76,36 @@
     <Compile Include="exemplos\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< .mine
+    <Compile Include="negocio\PagamentoController.cs" />
+=======
     <Compile Include="exemplos\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="exemplos\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+>>>>>>> .r8
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< .mine
+    <Compile Include="relatorio\AlunoAnoReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlunoAnoReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="relatorio\AlunoReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlunoReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="visao\TelaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visao\TelaPagamento.Designer.cs">
+      <DependentUpon>TelaPagamento.cs</DependentUpon>
+    </Compile>
+=======
     <Compile Include="visao\AcademiaMatricula.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +118,7 @@
     <Compile Include="visao\AcademiaPrincipal.Designer.cs">
       <DependentUpon>AcademiaPrincipal.cs</DependentUpon>
     </Compile>
+>>>>>>> .r8
     <EmbeddedResource Include="exemplos\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,7 +133,22 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< .mine
+    <EmbeddedResource Include="relatorio\AlunoAnoReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AlunoAnoReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorio\AlunoReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AlunoReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visao\TelaPagamento.resx">
+      <DependentUpon>TelaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+=======
     <EmbeddedResource Include="visao\AcademiaMatricula.resx">
       <DependentUpon>AcademiaMatricula.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +158,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+>>>>>>> .r8
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,11 +169,15 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
+<<<<<<< .mine
+=======
     <Folder Include="negocio\" />
     <Folder Include="relatorio\" />
   </ItemGroup>
   <ItemGroup>
+>>>>>>> .r8
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
