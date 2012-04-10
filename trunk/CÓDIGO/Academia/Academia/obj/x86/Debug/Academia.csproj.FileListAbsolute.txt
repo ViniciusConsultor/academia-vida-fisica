@@ -14,6 +14,9 @@ D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Ac
 D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.pdb
 D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\bin\Debug\Academia.exe.config
 D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.exemplos.Form1.resources
+<<<<<<< .mine
+D:\DOCUMENTOS\PROJETO ITATECHJR\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.visao.TelaPagamento.resources
+=======
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\bin\Debug\Academia.exe.config
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.exe
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.pdb
@@ -28,3 +31,4 @@ D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no G
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Sistemas de Informação\6º Período\Engenharia de Software II\Projetos no Google Code\Academia\trunk\CÓDIGO\Academia\Academia\obj\x86\Debug\Academia.exemplos.Form2.resources
+>>>>>>> .r8

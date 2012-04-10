@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 
 using Academia.exemplos;
+using Academia.visao;
 
 namespace Academia
 {
@@ -17,7 +18,8 @@ namespace Academia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TelaPagamento());
+            
         }
     }
 }
